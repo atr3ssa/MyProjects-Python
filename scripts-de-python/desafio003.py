@@ -1,6 +1,6 @@
 print("=========DESAFIO 3=========")
-numero1 = input("Primeiro número é: ")
-numero2 = input("Segundo número é: ")
-soma = (numero1 + numero2)
-print("A soma dos dois é: ",soma,"!")
+n1 = int(input("Primeiro número é: ")) # tipo primitivo int(7, -7) (outros: float(7.0, 0.6, -12.7), bool(true, false), str("Olá","3")) 
+n2 = int(input("Segundo número é: "))
+s = (n1 + n2) #soma
+print("A soma vale:{}".format(s))
 
