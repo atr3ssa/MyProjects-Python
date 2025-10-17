@@ -1,0 +1,6 @@
+digite_algo = input("Digite algo no teclado: ")
+print("========INFORMAÇÕES SOBRE O VALOR========")
+print("Tipo primitivo: {}".format(type(digite_algo)))
+print("Ele é um número: {}".format(digite_algo.isnumeric()))
+print("Ele é uma letra: {}".format(digite_algo.isalpha()))
+print("Ele é alfanumérico: {}".format(digite_algo.isalnum()))
